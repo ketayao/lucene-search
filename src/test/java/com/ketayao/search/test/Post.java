@@ -75,7 +75,7 @@ public class Post implements Searchable {
 	}
 
 	@Override
-	public List<? extends Searchable> ListAfter(long id, int count) {
+	public List<? extends Searchable> listAfter(long id, int count) {
 		return null;
 	}
 	@Override

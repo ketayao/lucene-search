@@ -82,7 +82,7 @@ public class IndexRebuilder {
 		int ic = 0;
 		long last_id = 0L;
 		do {
-			List<? extends Searchable> objs = obj.ListAfter(last_id, batch_count);
+			List<? extends Searchable> objs = obj.listAfter(last_id, batch_count);
 			if(objs != null && objs.size()>0){
 				ic  += holder.add(objs);
 				last_id = objs.get(objs.size()-1).getId();

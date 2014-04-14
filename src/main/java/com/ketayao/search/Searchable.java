@@ -57,5 +57,5 @@ public interface Searchable extends Comparable<Searchable> {
      * @param count
      * @return
      */
-	public List<? extends Searchable> ListAfter(long id, int count) ;
+	public List<? extends Searchable> listAfter(long id, int count) ;
 }
