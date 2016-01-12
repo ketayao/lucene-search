@@ -30,21 +30,11 @@
 			<version>4.4.0</version>
 		</dependency>
             		
-		<!-- utils -->     
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.1</version>
-		</dependency>  
+		<!-- utils -->       
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
 			<version>1.8.3</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.4</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-cli</groupId>
